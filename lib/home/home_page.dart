@@ -9,8 +9,10 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBarWidget(), //Parei em 53:51
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBarWidget(),
+      ),
     );
   }
 }
